@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root {
   --Red:          #ff7a7a;
   --Green:        #38cc8c;
@@ -9,14 +8,12 @@
   --Dark-Blue:    #3e3c49;
   --Grayish-Blue: #b9b6d3;
 }
-
 /* Reset */
 * {
   padding:    0;
   margin:     0;
   box-sizing: border-box;
 }
-
 body {
   display:         flex;
   align-items:     center;
@@ -29,23 +26,19 @@ body {
   background-image: url(images/bg-intro-desktop.png);
   background-color: var(--Red);
 }
-
 .left_container {
   width:    50vw;
   color: #ffffff;
 }
-
 .left_container h1 {
   padding-bottom: 15px;
 }
-
 .right_container {
   width:          50vw;
   display:        flex;
   flex-direction: column;
   gap:            20px;
 }
-
 .purple {
   display:          flex;
   justify-content:  center;
@@ -57,11 +50,9 @@ body {
   border-radius:    10px;
   box-shadow:       0 5px rgba(0, 0, 0, 0.315);
 }
-
 .purple p {
   font-weight: 300;
 }
-
 form {
   padding:          25px 30px; 
   display:          flex;
@@ -70,13 +61,11 @@ form {
   background-color: #ffffff;
   border-radius:    10px;
 }
-
 section {
   display:        flex;
   flex-direction: column;
   position:       relative;
 }
-
 input {
   height:        40px;
   font-family:  'Poppins', sans-serif;
@@ -85,13 +74,11 @@ input {
   border-radius: 5px;
   border:        1px solid rgba(0, 0, 0, 0.486);
 }
-
 input.error {
   border:  2px solid var(--Red);
   outline: 0;
   color:   var(--Red);
 }
-
 ion-icon {
   color:     var(--Red);
   font-size: 22px;
@@ -108,7 +95,6 @@ label {
   font-size:  .7rem;
   display:    none;
 }
-
 button {
   height:           40px;
   font-family:      'Poppins', sans-serif;
@@ -121,30 +107,25 @@ button {
   box-shadow:       0 4px 0 #2ca06e;
   transition:       all .25s ease;
 }
-
 button:hover {
   background-color: #38cc8ca6;
   box-shadow:         0 4px 0 #2ca06ea9;
 }
-
 .terms {
   text-align:   center;
   color:        var(--Grayish-Blue);
   font-size:   .70rem;
   padding-top: 7px;
 }
-
 .red {
   font-weight: bold;
   color:       var(--Red);
   cursor:      pointer;
   transition:  all .25s ease;
 }
-
 .red:hover {
   color: #ff7a7ab4;
 }
-
 @media screen and (max-width: 768px) {
   body {
     flex-direction:  column;
@@ -153,12 +134,10 @@ button:hover {
     font-family:     'Poppins', sans-serif;
     background-image: url(images/bg-intro-mobile.png);
   }
-
   .left_container, 
   .right_container {
     width: 100%;
   }
-
   .left_container {
     text-align: center;
   }
